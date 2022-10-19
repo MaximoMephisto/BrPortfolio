@@ -1,0 +1,298 @@
+* {
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+#body {
+    background-color: #FEF9A7;
+    background-image: url("images/Hi!.gif");
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    border-bottom: 1px solid #D61C4E;
+    background-color: #FEF9A7 !important;
+}
+.navbar-brand {
+    padding: 5px;
+    color: #FEF9A7;
+    border: 1px solid #D61C4E;
+    background-color: #D61C4E;
+    transition: all .2s;
+}
+.navbar-brand:hover {
+    color: #D61C4E;
+    background-color: #FEF9A7;
+}
+.nav-link {
+    color: #F77E21 !important;
+    border: 1px solid #D61C4E;
+    margin: 1px;
+} 
+.nav-link:hover {
+    color: #D61C4E !important;
+    background-color: #F77E21;
+}
+@media (max-width: 750px){
+    .nav-link, .nav-link:hover {
+        border: none;
+        background-color: transparent;
+    }
+}
+@media (max-width: 750px){
+    .d-inline {
+        display: none !important;
+    }
+}
+.navbar-toggler {
+    border: 1px solid #D61C4E !important;
+    border-radius: 0%;
+}
+.gg-folder {
+    color: #F77E21 !important;
+}
+#welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}
+#welcome .card{
+    border: 1px solid black;
+    height: 500px;
+    background-image: url("images/bgFlowyDark.gif");
+}
+@media (max-width: 750px){
+    .card {
+        height: 100% !important;
+    }
+}
+#welcome .card-header {
+    border-bottom: 1px solid black;
+    background-color: #FAC213;
+}
+#welcome .start {
+    display: flex;
+    justify-content: start;
+    background-color: #FAC213;
+}
+#welcome .end {
+    display: flex;
+    justify-content: end;
+    background-color: #FAC213;
+    margin-top: 3px;
+}
+.bar {
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+.square {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    margin-right: 4px;
+}
+.close {
+    background: teal;
+    position: relative;
+    margin-right: 4px;
+}
+.close:after {
+    content: '';
+    height: 17px;
+    border-left: 1px solid black;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 7px;
+}
+
+.close:before {
+    content: '';
+    height: 17px;
+    border-left: 1px solid black;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 7px;
+}
+#welcome .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#welcome h1 {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    text-shadow:-4px 4px #D61C4E;
+}
+#about {
+    background-image: url("images/bg.png");
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+#about .card-father {
+    background-image: url("images/bgTerminal.png");
+}
+#about .card{
+    border: 1px solid black;
+    margin: 5px;
+}
+#about .card-header-father {
+    border-bottom: 1px solid black;
+    background-color: #F77E21 !important;
+}
+#about .card-header {
+    border-bottom: 1px solid black;
+    background-color: #FEF9A7;
+}
+#about .start {
+    display: flex;
+    justify-content: start;
+    background-color: transparent;
+}
+#about .end {
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    margin-top: 3px;
+}
+#languages {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#languages .card{
+    border: 1px solid black;
+    margin: 5px;
+    background-image: url("images/bgWin.png");
+}
+#languages .card-header {
+    border-bottom: 1px solid black;
+    background-color: #FAC213;
+}
+#languages .start {
+    display: flex;
+    justify-content: start;
+    background-color: transparent;
+}
+#languages .end {
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    margin-top: 3px;
+}
+#languages .list-group {
+    border-radius: 0px;
+    border: 1px solid black;
+}
+#languages .list-group-item {
+    border-radius: 0px;
+    border: 1px solid black;
+}
+#projects {
+    background-image: url("images/bgTwo.png");
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#projects .card{
+    border: 1px solid black;
+    margin: 5px;
+}
+#projects .card-header {
+    border-bottom: 1px solid black;
+    background-color: #F77E21;
+}
+#projects .start {
+    display: flex;
+    justify-content: start;
+    background-color: transparent;
+}
+#projects .end {
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    margin-top: 3px;
+}
+#projects img {
+    width: 100% !important;
+    object-fit: cover !important;
+}
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+footer {
+    background-color: #FAC213;
+}
+footer a {
+    color: #D61C4E !important;
+    text-shadow: -2px 2px black;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media (max-width: 750px){
+    footer a {
+        font-size: 20px ;
+    }
+}
+/********/
+/*POPUPS*/
+/********/
+.contactPopup {
+    background-color: rgba(0, 0, 0, 0.798);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.contactPopup.active {
+    visibility: visible;
+}
+#contactPopup .card {
+    background-color: black;
+    border-radius: 0;
+}
+#contactPopup .flowyImg {
+    width: 100px;
+}
+#contactPopup .card {
+    width: 500px;
+    background-color: rgba(255, 251, 0, 0.554);
+}
+#contactPopup a {
+    color: #D61C4E !important;
+    text-shadow: -2px 2px black;
+    font-weight: bold;
+    font-size: 30px;
+}
+#contactPopup button {
+    margin: 5px;
+    border-radius: 0;
+    background-color: #D61C4E;
+    font-family: 'Silkscreen', cursive !important;
+    text-shadow: -2px 2px black;
+    transition: all .1s;
+}
+#contactPopup button:hover {
+    text-shadow: none;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}

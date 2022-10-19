@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body id="body">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MaxX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="gg-folder"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="btnAbrirPopup">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-inline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-hand-index-thumb" viewBox="0 0 16 16">
+                        <path
+                            d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 0 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 1 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.118a.5.5 0 0 1-.447-.276l-1.232-2.465-2.512-4.185a.517.517 0 0 1 .809-.631l2.41 2.41A.5.5 0 0 0 6 9.5V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v6.543L3.443 6.736A1.517 1.517 0 0 0 1.07 8.588l2.491 4.153 1.215 2.43A1.5 1.5 0 0 0 6.118 16h6.302a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        WELCOME!
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                <h1>
+                                    I'M MAXIMO, <br>
+                                    WEB DEVELOPER <br>
+                                    MOBILE APP DEVELOPER
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <div class="card card-father">
+                            <div class="card-header card-header-father">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        About me
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 my-1">
+                                        <div class="card h-100">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-6 start">
+                                                        Languages
+                                                    </div>
+                                                    <div class="col-6 end">
+                                                        <div class="bar"></div>
+                                                        <div class="square"></div>
+                                                        <div class="close"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                                <h5>
+                                                    <ul>
+                                                        <li>English: Intermediate</li>
+                                                        <li>Spanish: Native</li>
+                                                    </ul>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 my-1">
+                                        <div class="card h-100">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-6 start">
+                                                        Education
+                                                    </div>
+                                                    <div class="col-6 end">
+                                                        <div class="bar"></div>
+                                                        <div class="square"></div>
+                                                        <div class="close"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                                <h5>
+                                                    <ul>
+                                                        <li>Secondary: Complete</li>
+                                                        <li>University: Studying <a
+                                                                href="https://www.palermo.edu/ingenieria/licenciatura-inteligencia-artificial/"
+                                                                target="_blank">AI</a></li>
+                                                    </ul>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 my-1">
+                                        <div class="card h-100">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-6 start">
+                                                        Courses
+                                                    </div>
+                                                    <div class="col-6 end">
+                                                        <div class="bar"></div>
+                                                        <div class="square"></div>
+                                                        <div class="close"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                                <h5>
+                                                    <ul>
+                                                        <li>DePCSuite - Web Full Stack</li>
+                                                        <li>DePCSuite - Mobile React Native</li>
+                                                        <li>Google - Web Development I</li>
+                                                        <li>Google - Web Development II</li>
+                                                    </ul>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 my-1">
+                                        <div class="card h-100">
+                                            <div class="card-header">
+                                                <div class="row">
+                                                    <div class="col-6 start">
+                                                        Hobbies
+                                                    </div>
+                                                    <div class="col-6 end">
+                                                        <div class="bar"></div>
+                                                        <div class="square"></div>
+                                                        <div class="close"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                                <h5>
+                                                    <ul>
+                                                        <li>Read</li>
+                                                        <li>Encode</li>
+                                                        <li>Walk</li>
+                                                    </ul>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 my-1">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        Programming Languages
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                <h5>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">HTML:5</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">PHP</li>
+                                        <li class="list-group-item">Python</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                    </ul>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 my-1">
+                        <div class="card h-100">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        Frameworks and Libraries
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body mt-sm-5 mt-0 mb-sm-5 mb-0">
+                                <h5>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Bootstrap</li>
+                                        <li class="list-group-item">Laravel</li>
+                                        <li class="list-group-item">React Native</li>
+                                        <li class="list-group-item">JQuery</li>
+                                    </ul>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        SIMPLE HTML/CSS/PHP
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/PortPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        CRUD PHP
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/abmPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        CRUD PHP
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/sagiPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        CRUD LARAVEL
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/dplDash.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        CRUD LARAVEL
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/dplPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        PHP/PYTHON
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/ctPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        REACT NATIVE
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/reactCardPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 my-1">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="row">
+                                    <div class="col-6 start">
+                                        CRUD REACT NATIVE
+                                    </div>
+                                    <div class="col-6 end">
+                                        <div class="bar"></div>
+                                        <div class="square"></div>
+                                        <div class="close"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <img src="css/images/byoPage.png" alt="pageOne">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contactPopup" class="contactPopup">
+            <div class="popup">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-6 col-sm-6 text-center">
+                                        <a href="mailto:sorondomaximo1@gmail.com" target="_blank">
+                                            E-mail
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-6 text-center">
+                                        <a href="https://walink.co/36f2f9" target="_blank">
+                                            WhatsApp
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-sm-11 text-end">
+                                        <button class="btn btn-danger" id="cerrarPopup">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-sm-4 my-3 text-end">
+                    <a href="mailto:sorondomaximo1@gmail.com">
+                        E-mail
+                    </a>
+                </div>
+                <div class="col-4 col-sm-4 my-3 text-center">
+                    <a href="https://t.me/MephistMaximo">
+                        Telegram
+                    </a>
+                </div>
+                <div class="col-4 col-sm-4 my-3">
+                    <a href="https://www.instagram.com/halloman_n/">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/popups.js"></script>
+    <script src="js/type.js"></script>
+
+</body>
+
+</html>
