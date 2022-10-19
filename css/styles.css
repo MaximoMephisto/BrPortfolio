@@ -266,16 +266,19 @@ footer a {
 .contactPopup.active {
     visibility: visible;
 }
-#contactPopup .card {
-    background-color: black;
-    border-radius: 0;
-}
 #contactPopup .flowyImg {
     width: 100px;
 }
 #contactPopup .card {
+    background-color: black;
+    border-radius: 0;
     width: 500px;
     background-color: rgba(255, 251, 0, 0.554);
+}
+@media (max-width: 750px){
+    #contactPopup .card {
+        width: 100% !important;
+    }
 }
 #contactPopup a {
     color: #D61C4E !important;
